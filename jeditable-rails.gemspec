@@ -12,24 +12,18 @@ Gem::Specification.new do |s|
   s.date = %q{2011-02-17}
   s.description = %q{An edit-in-place gem that uses the JEditable jQuery plugin to post updates to the server via AJAX.}
   s.email = %q{aidan.feldman@gmail.com}
-  s.extra_rdoc_files = [
-    "LICENSE.txt",
-    "README.rdoc"
-  ]
+  s.extra_rdoc_files = [ "LICENSE.txt" ]
   s.files = [
     ".document",
     "CHANGELOG.markdown",
     "Gemfile",
-    "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
     "Rakefile",
     "VERSION",
     "jeditable-rails.gemspec",
     "lib/jeditable-rails.rb",
     "lib/jeditable-rails/base.rb",
     "lib/jeditable-rails/helpers/jeditable_helper.rb",
-    "spec/jeditable-rails_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/afeld/jeditable-rails}
@@ -37,10 +31,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.0}
   s.summary = %q{An edit-in-place gem for Rails 3}
-  s.test_files = [
-    "spec/jeditable-rails_spec.rb",
-    "spec/spec_helper.rb"
-  ]
+  s.test_files = [ "spec/spec_helper.rb" ]
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
@@ -63,4 +54,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rcov>, [">= 0"])
   end
 end
-
